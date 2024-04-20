@@ -18,6 +18,8 @@ public class SortListDesc {
 
         List<Integer> numbers = Arrays.asList(34,45,31,29,24);
         Collections.sort(numbers,comp);
+        // Instead of overriding comparator you can use this as well to get same output
+        // Collections.sort(numbers,Comparator.reverseOrder());
         numbers.forEach(n -> System.out.println(n));
 
     }
