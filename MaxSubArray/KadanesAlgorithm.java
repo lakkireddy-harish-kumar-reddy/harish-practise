@@ -3,7 +3,7 @@ import java.io.*;
 import java.lang.*;
 class GFG 
 { 
-    
+    // also called Kadanes Algorithm
 
     static int MaxSubArraySum(int arr[], int n)
     {
